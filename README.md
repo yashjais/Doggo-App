@@ -1,4 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Doggo-App
+
+Doggo-App is a Front-End centric project. Made using React, it is fast and elegant. It has User-Authentication which is based on <a href="https://backendless.com/">Backendless<a>. Designing tools used in this project are bootstrap.
+
+## Dependencies
+
+1. axios: "^0.19.2", // npm install --save axios
+2. bootstrap: "^4.4.1", // npm install bootstrap
+3. react: "^16.12.0", // npm i react
+4. react-dom: "^16.12.0", 
+5. react-redux: "^7.1.3", // npm install react-redux
+6. react-router-dom: "^5.1.2", // npm install --save react-router-dom
+7. react-scripts: "3.3.0",
 
 ## Available Scripts
 
@@ -33,7 +45,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
