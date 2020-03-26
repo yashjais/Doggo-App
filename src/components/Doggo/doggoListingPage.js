@@ -54,9 +54,10 @@ class Dogs extends React.Component {
     render() {
         console.log(this.state.breed, this.state.subbreed)
         return (
-            <div>
+            <div style={{textAlign: 'center'}}>
+                <br />
                 <h1>Dogs Listing Page</h1>
-                <h3>Breeds</h3>
+                <h3>Breed</h3>
                 <select onChange={this.handleChange}>
                     <option value=''>select</option>
                     {
@@ -66,9 +67,9 @@ class Dogs extends React.Component {
                             )
                         })
                     }
-                </select>
+                </select> <br /> <br />
                 {
-                    this.state.subbreeds.length != 0 && <div><h3>Subbreeds - </h3>
+                    this.state.subbreeds.length != 0 && <div><h3>Subbreed</h3>
                     <select onChange={this.handlesubbreedsChange}>
                         <option value=''>select</option>
                         {
@@ -78,10 +79,9 @@ class Dogs extends React.Component {
                                 )
                             })
                         }
-                </select>
+                </select> 
                 </div>  
                 }
-                <br />
                 <br />
                 <button onClick={this.handleClick}>submit</button>
                 

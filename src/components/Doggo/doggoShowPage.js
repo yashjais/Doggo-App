@@ -6,6 +6,7 @@ class DoggoShow extends React.Component {
         super(props)
         this.state = {
             breed: this.props.match.params.breed,
+            subbreed: this.props.match.params.subbreed,
             image: ''
         }
     }
@@ -20,8 +21,12 @@ class DoggoShow extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div style={{textAlign: 'center'}}>
+                <br />
                 <h2>Doggo show page</h2>
+                <h3> Breed - {this.state.breed}</h3>
+                {this.state.subbreed && 
+                <h3> SubBreed - {this.state.subbreed}</h3>}
                 <img src={this.state.image} />
             </div>
         )
