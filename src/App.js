@@ -5,7 +5,8 @@ import Home from './components/home'
 import Login from './components/users/login'
 import Register from './components/users/register'
 
-import Dogs from './components/doggoPage'
+import Dogs from './components/doggoListingPage'
+import DoggoShow from './components/doggoShowPage'
 
 function App(){
     const handleLogout = () => {
@@ -36,6 +37,8 @@ function App(){
                 <Route path="/login" component={Login} /> 
                 <Route path="/register" component={Register} /> 
                 <Route path="/dogs" component={Dogs} exact={true} />
+                <Route path="/dog-show/:breed" component={DoggoShow} exact={true} />
+                <Route path="/dog-show/:breed/:subbreed" component={DoggoShow} />
             </BrowserRouter>
         </div>
     )

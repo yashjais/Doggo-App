@@ -37,15 +37,18 @@ class Dogs extends React.Component {
         this.setState({subbreed})
     }
     handleClick = (e) => {
+        const breed = this.state.breed
         if(this.state.subbreeds.length != 0) {
             if(this.state.subbreed.length == 0) {
                 alert('you gotta select subbreed man')
             }
             else{
-                console.log('everything is fine')
+                const subbreed = this.state.subbreed
+                this.props.history.push(`/dog-show/${breed}/${subbreed}`)
             }
         } else{
             console.log('everything is fine')
+            this.props.history.push(`/dog-show/${breed}`)
         }
     }
     render() {
