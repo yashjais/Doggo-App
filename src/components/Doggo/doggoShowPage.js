@@ -27,7 +27,7 @@ class DoggoShow extends React.Component {
                 <h3> Breed - {this.state.breed}</h3>
                 {this.state.subbreed && 
                 <h3> SubBreed - {this.state.subbreed}</h3>}
-                <img src={this.state.image} />
+                <img src={this.state.image} alt="doggo_image" />
             </div>
         )
     }

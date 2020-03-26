@@ -1,5 +1,4 @@
 import React from 'react'
-import Backendless from 'backendless'
 import axios from 'axios'
 
 class Register extends React.Component {
@@ -34,16 +33,21 @@ class Register extends React.Component {
     render() {
         return (
             <div>
-                <h1>Register</h1>
-                <form onSubmit={this.handleSubmit}>
+            <br />
+            <h1 style={{textAlign: 'center'}}>Register</h1> <br />
+            <form onSubmit={this.handleSubmit}>
+                <div className="form-group">
                     <label htmlFor="email">Email</label>
-                    <input id="email" name="email" type="text" onChange={this.handleClick} /> <br />
+                    <input id="email" name="email" type="text" className="form-control" onChange={this.handleClick} /> 
+                </div>
 
+                <div className="form-group">
                     <label htmlFor="password">Password</label>
-                    <input id="password" name="password" type="password" onChange={this.handleClick} /> <br />
+                    <input id="password" name="password" type="password" className="form-control" onChange={this.handleClick} /> 
+                </div>
 
-                    <input type="submit" value="submit"/>
-                </form>
+                <button type="submit" className="btn btn-primary">Submit</button>
+            </form>
             </div>
         )
     }

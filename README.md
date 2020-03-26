@@ -1,6 +1,6 @@
 ## Doggo-App
 
-Doggo-App is a Front-End centric project. Made using React, it is fast and elegant. It has User-Authentication which is based on <a href="https://backendless.com/">Backendless<a>. Designing tools used in this project are bootstrap.
+Doggo-App is a Front-End centric project. Made using React, it is fast and elegant. It has User-Authentication which is based on <a href="https://backendless.com/">Backendless<a>. Designing tools used in this project is bootstrap.
 
 ## Dependencies
 

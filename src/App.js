@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Link, Route, Switch} from 'react-router-dom'
+import {BrowserRouter, Link, Route} from 'react-router-dom'
 
 import Home from './components/home'
 import Login from './components/users/login'
@@ -12,7 +12,7 @@ function App(){
     const handleLogout = () => {
 
         localStorage.removeItem('authToken')
-        window.location.reload()
+        window.location.href = "/"
     
     }
     return (
