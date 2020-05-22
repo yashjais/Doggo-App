@@ -11,6 +11,7 @@ Doggo-App is a Front-End centric project. Made using React, it is fast and elega
 5. react-redux: "^7.1.3", // npm install react-redux
 6. react-router-dom: "^5.1.2", // npm install --save react-router-dom
 7. react-scripts: "3.3.0",
+8. reactstrap: "^8.4.1" // npm install reactstrap
 
 ## Available Scripts
 
