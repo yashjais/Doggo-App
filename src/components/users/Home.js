@@ -17,8 +17,11 @@ function Home() {
             <h1>Welcome to the Doggo App</h1>
             <br />
             <ul>
-                Features of this website:
-                <li>User Authentication</li>
+                Features of this website: <br />
+                User Authentication is enabled via a site called backendless. <br />
+                This site is responsive.<br />
+                Private routes are enabled.<br />
+                Several Packages are used like react-router-dom, axios, reactstrap, bootstrap.<br />
             </ul>
         </div>
     )
